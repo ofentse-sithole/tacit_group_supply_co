@@ -1,0 +1,87 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #f4f4f4;
+    /* Dark background for contrast */
+    min-height: 100vh;
+    /* Full viewport height */
+}
+
+.home-header {
+    background: linear-gradient(90deg, #56b201 0%, #036622 100%);
+    width: 100%;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home-header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.home-header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #036622;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #036622;
+    color: #fff;
+}
+
+.home-main {
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.services-section,
+.about-section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.our-services{
+    color:#222;
+}
+
+.services-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-item {
+    background-color: #00750e;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.home-footer {
+    background-color: #222;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Pushes footer to the bottom */
+}

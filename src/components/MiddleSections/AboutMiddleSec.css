@@ -1,0 +1,111 @@
+.about-container {
+    color: #fff;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-hero {
+    background: linear-gradient(90deg, #56b201 0%, #036622 100%);
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-hero .hero-content h1 {
+    font-size: 3rem;
+}
+
+.about-hero .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.about-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 50px 20px;
+}
+
+.mission-vision {
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 40px;
+    color:#222;
+}
+
+.mission-vision h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.mission-vision p {
+    font-size: 1.2rem;
+}
+
+.about-team {
+    background-color: #222;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 300px;
+}
+
+.team-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.team-member h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.about-values {
+    background-color: #fafafa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-values h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:#222;
+}
+
+.about-values ul {
+    list-style: none;
+    padding: 0;
+    color:#222;
+}
+
+.about-values ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color:#222;
+}
+
+.about-footer {
+    background-color: #222;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Pushes footer to the bottom */
+}

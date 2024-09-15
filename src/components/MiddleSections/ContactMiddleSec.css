@@ -1,0 +1,168 @@
+.contact-container {
+    color: #222;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-form-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-form-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-form-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-btn {
+    background-color: #56b201;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.submit-btn:hover {
+    background-color: #036622;
+}
+
+.contact-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact-social-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-social-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.social-icons a:hover {
+    color: #56b201;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    /* Distribute columns evenly */
+    flex-wrap: wrap;
+    width: 100%;
+    /* Ensure it spans the full width */
+    margin: 0 auto;
+    /* Center the content */
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    text-align: right;
+    clear: both;
+    color: #fff;
+}
+
+.contact-footer {
+    background-color: #222;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Pushes footer to the bottom */
+}
