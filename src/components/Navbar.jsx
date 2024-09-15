@@ -20,7 +20,7 @@ const Navbar = () => {
                 {/* Logo navigation using Link */}
                 <Link to="/home" className="navbar-logo" onClick={closeMobileMenu}>
                     <img
-                        src="/Logo-removebg-preview.png"
+                        src="/Logo-removebg-previeww.png"
                         alt="Tatic Logo"
                         className="navbar-image"
                     />
