@@ -2,6 +2,9 @@
     color: #222;
     background-color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: 'Arial', sans-serif;
 }
 
@@ -111,12 +114,11 @@
 .footer-content {
     display: flex;
     justify-content: space-around;
-    /* Distribute columns evenly */
     flex-wrap: wrap;
     width: 100%;
-    /* Ensure it spans the full width */
     margin: 0 auto;
-    /* Center the content */
+    box-sizing: border-box;
+    position: relative;
 }
 
 .footer-column {
@@ -163,6 +165,4 @@
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    margin-top: auto;
-    /* Pushes footer to the bottom */
 }

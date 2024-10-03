@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons'; 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-
+import './AboutMiddleSec.css';
 import './ContactMiddleSec.css';
 
 function Contact() {
